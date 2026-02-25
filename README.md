@@ -5,7 +5,9 @@
 
 #### Recent Blog Posts
 <!-- BEGIN BLOG-CARDS -->
-[![10 CLI Tools Every Developer Should Use with AI Coding Agents](https://blog.starmorph.com/static/images/thumbnail-10-cli-tools.png)](https://blog.starmorph.com/blog/10-cli-tools-for-ai-coding "10 CLI Tools Every Developer Should Use with AI Coding Agents")
-[![Claude Code in Production: Case Studies and Best Practices from Real Engineering Teams](https://blog.starmorph.com/static/images/twitter-card.png)](https://blog.starmorph.com/blog/claude-code-production-case-studies "Claude Code in Production: Case Studies and Best Practices from Real Engineering Teams")
-[![Tailscale 101: Complete Developer Reference Guide for Mesh VPN Networking](https://blog.starmorph.com/static/images/twitter-card.png)](https://blog.starmorph.com/blog/tailscale-complete-developer-reference-guide "Tailscale 101: Complete Developer Reference Guide for Mesh VPN Networking")
+<table><tr>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/10-cli-tools-for-ai-coding"><img src="https://blog.starmorph.com/static/images/thumbnail-10-cli-tools.png" alt="10 CLI Tools Every Developer Should Use with AI Coding Agents" width="250"><br/><sub><b>10 CLI Tools Every Developer Should Use with AI Coding Agents</b></sub></a></td>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/claude-code-production-case-studies"><img src="https://blog.starmorph.com/static/images/twitter-card.png" alt="Claude Code in Production: Case Studies and Best Practices from Real Engineering Teams" width="250"><br/><sub><b>Claude Code in Production: Case Studies and Best Practices from Real Engineering Teams</b></sub></a></td>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/tailscale-complete-developer-reference-guide"><img src="https://blog.starmorph.com/static/images/twitter-card.png" alt="Tailscale 101: Complete Developer Reference Guide for Mesh VPN Networking" width="250"><br/><sub><b>Tailscale 101: Complete Developer Reference Guide for Mesh VPN Networking</b></sub></a></td>
+</tr></table>
 <!-- END BLOG-CARDS -->

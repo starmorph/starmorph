@@ -1,0 +1,81 @@
+name: GitHub Readme Blog Cards
+on:
+  schedule:
+    # Runs once a week on Sundays at midnight UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate blog cards and update README
+        run: |
+          python3 << 'PYEOF'
+          import re
+          import xml.etree.ElementTree as ET
+          from urllib.request import urlopen, Request
+
+          FEED_URL = "https://blog.starmorph.com/feed.xml"
+          FALLBACK_IMAGE = "https://blog.starmorph.com/static/images/twitter-card.png"
+          MAX_POSTS = 3
+
+          # Fetch and parse RSS feed
+          req = Request(FEED_URL, headers={"User-Agent": "GitHub-Actions"})
+          feed_xml = urlopen(req).read()
+          root = ET.fromstring(feed_xml)
+          items = root.findall(".//item")[:MAX_POSTS]
+
+          cards = []
+          for item in items:
+              title = item.findtext("title", "")
+              link = item.findtext("link", "")
+              description = item.findtext("description", "")
+
+              if not title or not link:
+                  continue
+
+              # Fetch the page to extract og:image
+              og_image = FALLBACK_IMAGE
+              try:
+                  page_req = Request(link, headers={"User-Agent": "GitHub-Actions"})
+                  html = urlopen(page_req).read().decode("utf-8", errors="ignore")
+                  match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', html)
+                  if match:
+                      og_image = match.group(1)
+              except Exception:
+                  pass
+
+              # Escape quotes in title for alt text
+              safe_title = title.replace('"', "&quot;")
+              cards.append(f'[![{safe_title}]({og_image})]({link} "{safe_title}")')
+
+          cards_md = "\n".join(cards)
+
+          # Update README between markers
+          with open("README.md", "r") as f:
+              readme = f.read()
+
+          pattern = r"(<!-- BEGIN BLOG-CARDS -->).*?(<!-- END BLOG-CARDS -->)"
+          replacement = f"\\1\n{cards_md}\n\\2"
+          new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(new_readme)
+
+          print(f"Generated {len(cards)} blog cards")
+          for c in cards:
+              print(c[:100] + "...")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "docs(readme): Update blog cards"
+          git push

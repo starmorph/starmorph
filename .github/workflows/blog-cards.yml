@@ -77,9 +77,9 @@ jobs:
           with open("README.md", "w") as f:
               f.write(new_readme)
 
-          print(f"Generated {len(cards)} blog cards")
-          for c in cards:
-              print(c[:100] + "...")
+          print(f"Generated {len(posts)} blog cards")
+          for p in posts:
+              print(f"  - {p['title']}")
           PYEOF
 
       - name: Commit and push

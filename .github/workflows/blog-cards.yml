@@ -30,11 +30,10 @@ jobs:
           root = ET.fromstring(feed_xml)
           items = root.findall(".//item")[:MAX_POSTS]
 
-          cards = []
+          posts = []
           for item in items:
               title = item.findtext("title", "")
               link = item.findtext("link", "")
-              description = item.findtext("description", "")
 
               if not title or not link:
                   continue
@@ -50,11 +49,22 @@ jobs:
               except Exception:
                   pass
 
-              # Escape quotes in title for alt text
-              safe_title = title.replace('"', "&quot;")
-              cards.append(f'[![{safe_title}]({og_image})]({link} "{safe_title}")')
+              posts.append({"title": title, "link": link, "image": og_image})
 
-          cards_md = "\n".join(cards)
+          # Build HTML table with 3 columns, thumbnail + title per cell
+          cells = []
+          for p in posts:
+              safe_title = p["title"].replace('"', "&quot;")
+              cell = (
+                  f'<td align="center" width="33%">'
+                  f'<a href="{p["link"]}">'
+                  f'<img src="{p["image"]}" alt="{safe_title}" width="250">'
+                  f'<br/><sub><b>{p["title"]}</b></sub>'
+                  f'</a></td>'
+              )
+              cells.append(cell)
+
+          cards_md = "<table><tr>\n" + "\n".join(cells) + "\n</tr></table>"
 
           # Update README between markers
           with open("README.md", "r") as f:

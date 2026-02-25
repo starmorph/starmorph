@@ -1,5 +1,6 @@
 #### Recent YouTube Video
 <!-- BEGIN YOUTUBE-CARDS -->
+[![10 CLI Tools I'm using alongside Claude Code | Starmorph AI](https://ytcards.demolab.com/?id=3NzCBIcIqD0&title=10+CLI+Tools+I%27m+using+alongside+Claude+Code+%7C+Starmorph+AI&lang=en&timestamp=1771795925&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=350&border_radius=5 "10 CLI Tools I'm using alongside Claude Code | Starmorph AI")](https://www.youtube.com/watch?v=3NzCBIcIqD0)
 <!-- END YOUTUBE-CARDS -->
 
 #### Recent Blog Posts

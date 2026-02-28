@@ -6,9 +6,9 @@
 #### Recent Blog Posts
 <!-- BEGIN BLOG-CARDS -->
 <table><tr>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/yazi-terminal-file-manager-guide"><img src="https://blog.starmorph.com/static/images/thumbnail-yazi-guide.png" alt="Yazi: The Blazing-Fast Terminal File Manager for Developers" width="250"><br/><sub><b>Yazi: The Blazing-Fast Terminal File Manager for Developers</b></sub></a></td>
 <td align="center" width="33%"><a href="https://blog.starmorph.com/blog/symlinks-guide-macos-linux"><img src="https://blog.starmorph.com/static/images/thumbnail-symlinks-guide.png" alt="Symlinks Explained: How to Create and Use Symbolic Links on macOS and Linux" width="250"><br/><sub><b>Symlinks Explained: How to Create and Use Symbolic Links on macOS and Linux</b></sub></a></td>
 <td align="center" width="33%"><a href="https://blog.starmorph.com/blog/10-cli-tools-for-ai-coding"><img src="https://blog.starmorph.com/static/images/thumbnail-10-cli-tools.png" alt="10 CLI Tools Every Developer Should Use with AI Coding Agents" width="250"><br/><sub><b>10 CLI Tools Every Developer Should Use with AI Coding Agents</b></sub></a></td>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/claude-code-production-case-studies"><img src="https://blog.starmorph.com/static/images/twitter-card.png" alt="Claude Code in Production: Case Studies and Best Practices from Real Engineering Teams" width="250"><br/><sub><b>Claude Code in Production: Case Studies and Best Practices from Real Engineering Teams</b></sub></a></td>
 </tr></table>
 <!-- END BLOG-CARDS -->
 

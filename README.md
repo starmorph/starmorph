@@ -6,9 +6,9 @@
 #### Recent Blog Posts
 <!-- BEGIN BLOG-CARDS -->
 <table><tr>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/best-mac-mini-for-local-llms"><img src="https://blog.starmorph.com/static/images/twitter-card.png" alt="Best Mac Mini for Running Local LLMs and OpenClaw: Complete Pricing & Buying Guide (2026)" width="250"><br/><sub><b>Best Mac Mini for Running Local LLMs and OpenClaw: Complete Pricing & Buying Guide (2026)</b></sub></a></td>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/yazi-terminal-file-manager-guide"><img src="https://blog.starmorph.com/static/images/thumbnail-yazi-guide.png" alt="Yazi: The Blazing-Fast Terminal File Manager for Developers" width="250"><br/><sub><b>Yazi: The Blazing-Fast Terminal File Manager for Developers</b></sub></a></td>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/symlinks-guide-macos-linux"><img src="https://blog.starmorph.com/static/images/thumbnail-symlinks-guide.png" alt="Symlinks Explained: How to Create and Use Symbolic Links on macOS and Linux" width="250"><br/><sub><b>Symlinks Explained: How to Create and Use Symbolic Links on macOS and Linux</b></sub></a></td>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/obsidian-claude-code-integration-guide"><img src="https://blog.starmorph.com/static/images/thumbnail-obsidian-claude-code.png" alt="Obsidian + Claude Code: The Complete Integration Guide" width="250"><br/><sub><b>Obsidian + Claude Code: The Complete Integration Guide</b></sub></a></td>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/cli-tools-part-2-terminal-workflow"><img src="https://blog.starmorph.com/static/images/thumbnail-10-cli-tools.png" alt="10 More CLI Tools for AI Coding: Part 2 Terminal Workflow Guide" width="250"><br/><sub><b>10 More CLI Tools for AI Coding: Part 2 Terminal Workflow Guide</b></sub></a></td>
+<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/pixelmuse-cli-guide-ai-image-generation-terminal"><img src="https://blog.starmorph.com/static/images/thumbnail-pixelmuse-cli-guide.png" alt="Pixelmuse CLI Guide: AI Image Generation From Your Terminal" width="250"><br/><sub><b>Pixelmuse CLI Guide: AI Image Generation From Your Terminal</b></sub></a></td>
 </tr></table>
 <!-- END BLOG-CARDS -->
 

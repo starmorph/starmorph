@@ -1,4 +1,4 @@
-name: GitHub Readme YouTube Cards
+name: GitHub Readme YouTube Videos
 on:
   schedule:
     # Runs once a week on Sundays at midnight UTC
@@ -11,8 +11,65 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: DenverCoder1/github-readme-youtube-cards@main
-        with:
-          channel_id: UCuj1_b4QHEycQPShFTxI_-w
-          max_videos: 2
-          card_width: 350
+      - uses: actions/checkout@v4
+
+      - name: Generate YouTube video list and update README
+        run: |
+          python3 << 'PYEOF'
+          import re
+          import xml.etree.ElementTree as ET
+          from urllib.request import urlopen, Request
+
+          FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCuj1_b4QHEycQPShFTxI_-w"
+          MAX_VIDEOS = 5
+
+          # Fetch and parse Atom feed
+          req = Request(FEED_URL, headers={"User-Agent": "GitHub-Actions"})
+          feed_xml = urlopen(req).read()
+          root = ET.fromstring(feed_xml)
+
+          ns = {
+              "atom": "http://www.w3.org/2005/Atom",
+              "yt": "http://www.youtube.com/xml/schemas/2015",
+          }
+
+          entries = root.findall("atom:entry", ns)[:MAX_VIDEOS]
+
+          videos = []
+          for entry in entries:
+              title = entry.findtext("atom:title", "", ns)
+              video_id = entry.findtext("yt:videoId", "", ns)
+              if title and video_id:
+                  # Clean channel name suffix from title
+                  title = re.sub(r"\s*\|\s*Starmorph AI\s*$", "", title).strip()
+                  videos.append({"title": title, "url": f"https://www.youtube.com/watch?v={video_id}"})
+
+          # Build text list
+          lines = []
+          for v in videos:
+              lines.append(f'- 🎥 [{v["title"]}]({v["url"]})')
+          list_md = "\n".join(lines)
+
+          # Update README between markers
+          with open("README.md", "r") as f:
+              readme = f.read()
+
+          pattern = r"(<!-- BEGIN YOUTUBE-CARDS -->).*?(<!-- END YOUTUBE-CARDS -->)"
+          replacement = f"\\1\n{list_md}\n\\2"
+          new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(new_readme)
+
+          print(f"Generated {len(videos)} YouTube video links")
+          for v in videos:
+              print(f"  - {v['title']}")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "docs(readme): Update YouTube videos"
+          git push

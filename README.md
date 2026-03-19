@@ -1,21 +1,57 @@
-#### Recent YouTube Videos
+# Hi, I'm Dylan 👋
+
+📍 **Phoenix, AZ** | 🛠️ **TypeScript Engineer** | 🤖 **Building AI-Native Products**
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+
+> Full-stack TypeScript engineer shipping AI-powered products. I build tools for developers and create content about agentic engineering workflows.
+
+## Projects
+
+- 🎨 **[Pixelmuse Studio](https://pixelmuse.studio)** — AI image generation platform
+- 🧜 **[Mermaid Editor](https://mermaideditor.io)** — Visual diagram editor for Mermaid.js
+- 🔧 **[JSON Smith](https://jsonsmith.dev)** — JSON tooling for developers
+- 🎬 **[VideoForge Studio](https://videoforge.studio)** — Video creation platform
+- 🌐 **[dylanboudro.com](https://dylanboudro.com)** — Personal site
+- ⭐ **[Starmorph](https://starmorph.com)** — Dev studio & blog
+
+## Open Source Contributions
+
+- 🦜 **[LangChain / open-swe](https://github.com/langchain-ai/open-swe)** — Open-source software engineering agent
+- 📥 **[LangChain / agent-inbox](https://github.com/langchain-ai/agent-inbox)** — Human-in-the-loop inbox for AI agents
+- 💬 **[LangChain / agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui)** — Chat interface for LangGraph agents
+- 💳 **[LangChain / agent-auth-payments](https://github.com/langchain-ai/agent-auth-payments)** — Fullstack agent with auth & payments
+
+## Latest YouTube Videos
+
 <!-- BEGIN YOUTUBE-CARDS -->
-[![10 More CLI Tools I Use With Claude Code PART 2 |  Starmorph AI](https://ytcards.demolab.com/?id=dTcfWvZkaV8&title=10+More+CLI+Tools+I+Use+With+Claude+Code+PART+2+%7C++Starmorph+AI&lang=en&timestamp=1772978778&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=350&border_radius=5 "10 More CLI Tools I Use With Claude Code PART 2 |  Starmorph AI")](https://www.youtube.com/watch?v=dTcfWvZkaV8)
-[![10 CLI Tools I'm using alongside Claude Code | Starmorph AI](https://ytcards.demolab.com/?id=3NzCBIcIqD0&title=10+CLI+Tools+I%27m+using+alongside+Claude+Code+%7C+Starmorph+AI&lang=en&timestamp=1771795925&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=350&border_radius=5 "10 CLI Tools I'm using alongside Claude Code | Starmorph AI")](https://www.youtube.com/watch?v=3NzCBIcIqD0)
+- 🎥 [10 More CLI Tools I Use With Claude Code PART 2](https://www.youtube.com/watch?v=dTcfWvZkaV8)
+- 🎥 [10 CLI Tools I'm using alongside Claude Code](https://www.youtube.com/watch?v=3NzCBIcIqD0)
+- 🎥 [Vercel AI SDK Overview Tutorial | Generative UI, Streaming, Agentic Tool Functions](https://www.youtube.com/watch?v=D48I3Nd0E5U)
+- 🎥 [AI Workflow | Save Youtube Summary Notes with Raycast, Anthropic API, and Obsidian](https://www.youtube.com/shorts/lOCeHpw4uh4)
+- 🎥 [Vectorshift - AI Automation - Interview with CoFounder Albert Mao](https://www.youtube.com/watch?v=R6SeR7ugMrc)
 <!-- END YOUTUBE-CARDS -->
-#### Recent Blog Posts
+
+## Latest Blog Posts
+
 <!-- BEGIN BLOG-CARDS -->
-<table><tr>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/obsidian-claude-code-integration-guide"><img src="https://blog.starmorph.com/static/images/thumbnail-obsidian-claude-code.png" alt="Obsidian + Claude Code: The Complete Integration Guide" width="250"><br/><sub><b>Obsidian + Claude Code: The Complete Integration Guide</b></sub></a></td>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/cli-tools-part-2-terminal-workflow"><img src="https://blog.starmorph.com/static/images/thumbnail-10-cli-tools.png" alt="10 More CLI Tools for AI Coding: Part 2 Terminal Workflow Guide" width="250"><br/><sub><b>10 More CLI Tools for AI Coding: Part 2 Terminal Workflow Guide</b></sub></a></td>
-<td align="center" width="33%"><a href="https://blog.starmorph.com/blog/pixelmuse-cli-guide-ai-image-generation-terminal"><img src="https://blog.starmorph.com/static/images/thumbnail-pixelmuse-cli-guide.png" alt="Pixelmuse CLI Guide: AI Image Generation From Your Terminal" width="250"><br/><sub><b>Pixelmuse CLI Guide: AI Image Generation From Your Terminal</b></sub></a></td>
-</tr></table>
+- 📝 [Obsidian + Claude Code: The Complete Integration Guide](https://blog.starmorph.com/blog/obsidian-claude-code-integration-guide)
+- 📝 [10 More CLI Tools for AI Coding: Part 2 Terminal Workflow Guide](https://blog.starmorph.com/blog/cli-tools-part-2-terminal-workflow)
+- 📝 [Pixelmuse CLI Guide: AI Image Generation From Your Terminal](https://blog.starmorph.com/blog/pixelmuse-cli-guide-ai-image-generation-terminal)
+- 📝 [Best Mac Mini for Running Local LLMs: Complete Pricing & Buying Guide](https://blog.starmorph.com/blog/best-mac-mini-for-local-llms)
+- 📝 [Yazi: The Blazing-Fast Terminal File Manager for Developers](https://blog.starmorph.com/blog/yazi-terminal-file-manager-guide)
 <!-- END BLOG-CARDS -->
 
+## Connect
 
-#### Projects
-<table><tr>
-<td align="center" width="33%"><a href="https://pixelmuse.studio"><img src="https://www.pixelmuse.studio/opengraph-image.png?5d95d42e804ddb37" alt="Pixelmuse Studio" width="250"><br/><sub><b>Pixelmuse Studio</b></sub></a></td>
-<td align="center" width="33%"><a href="https://mermaideditor.io"><img src="https://www.mermaideditor.io/opengraph-image?9f4ef0ab8d39c895" alt="Mermaid Editor" width="250"><br/><sub><b>Mermaid Editor</b></sub></a></td>
-<td align="center" width="33%"><a href="https://starmorph.com"><img src="https://starmorph.com/opengraph-image?44648772fce75dbc" alt="Starmorph" width="250"><br/><sub><b>Starmorph</b></sub></a></td>
-</tr></table>
+[![Twitter](https://img.shields.io/badge/-@starmorphai-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/starmorphai)
+[![YouTube](https://img.shields.io/badge/-Starmorph_AI-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@starmorphai)
+[![Blog](https://img.shields.io/badge/-blog.starmorph.com-FF5722?style=flat-square&logo=hashnode&logoColor=white)](https://blog.starmorph.com)
+[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/starmorph)

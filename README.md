@@ -14,13 +14,12 @@
 > Full-stack TypeScript engineer shipping AI-powered products. I build tools for developers and create content about agentic engineering workflows.
 
 ## Projects
-
-- 🎨 **[Pixelmuse Studio](https://pixelmuse.studio)** — AI image generation platform
-- 🧜 **[Mermaid Editor](https://mermaideditor.io)** — Visual diagram editor for Mermaid.js
-- 🔧 **[JSON Smith](https://jsonsmith.dev)** — JSON tooling for developers
-- 🎬 **[VideoForge Studio](https://videoforge.studio)** — Video creation platform
-- 🌐 **[dylanboudro.com](https://dylanboudro.com)** — Personal site
 - ⭐ **[Starmorph](https://starmorph.com)** — Dev studio & blog
+- 🧜 **[Mermaid Editor](https://mermaideditor.io)** — Visual Mermaid Diagram Editor
+- 🎨 **[Pixelmuse Studio](https://pixelmuse.studio)** — AI image generation platform [API, CLI, MCP]
+- 🌐 **[dylanboudro.com](https://dylanboudro.com)** — Personal site
+- 🔧 **[JSON Smith](https://jsonsmith.dev)** — JSON tooling for developers
+- 🎬 **[VideoForge Studio](https://videoforge.studio)** — 6+ leading video models - flat rate pricing 
 
 ## Open Source Contributions
 

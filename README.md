@@ -11,7 +11,7 @@
 ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
-> Full-stack TypeScript engineer shipping AI-powered products. I build tools for developers and create content about agentic engineering workflows.
+> Full-stack TypeScript engineer shipping AI-powered products. I build tools for developers and create content about my agentic engineering explorations.
 
 ## Projects
 - ⭐ **[Starmorph](https://starmorph.com)** — Dev studio & blog

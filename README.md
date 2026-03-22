@@ -34,7 +34,7 @@
 - 🎥 [10 More CLI Tools I Use With Claude Code PART 2](https://www.youtube.com/watch?v=dTcfWvZkaV8)
 - 🎥 [10 CLI Tools I'm using alongside Claude Code](https://www.youtube.com/watch?v=3NzCBIcIqD0)
 - 🎥 [Vercel AI SDK Overview Tutorial | Generative UI, Streaming, Agentic Tool Functions](https://www.youtube.com/watch?v=D48I3Nd0E5U)
-- 🎥 [AI Workflow | Save Youtube Summary Notes with Raycast, Anthropic API, and Obsidian](https://www.youtube.com/shorts/lOCeHpw4uh4)
+- 🎥 [AI Workflow | Save Youtube Summary Notes with Raycast, Anthropic API, and Obsidian,](https://www.youtube.com/watch?v=lOCeHpw4uh4)
 - 🎥 [Vectorshift - AI Automation - Interview with CoFounder Albert Mao](https://www.youtube.com/watch?v=R6SeR7ugMrc)
 <!-- END YOUTUBE-CARDS -->
 

@@ -41,11 +41,11 @@
 ## Latest Blog Posts
 
 <!-- BEGIN BLOG-CARDS -->
+- 📝 [AI Token Throughput Tracking Tools: The Complete Guide for Developers (2026)](https://blog.starmorph.com/blog/ai-token-throughput-tracking-tools)
+- 📝 [Best SEO Tools for Developers and Technical Founders: Complete Guide (2026)](https://blog.starmorph.com/blog/best-seo-tools-for-developers)
+- 📝 [Local LLM Inference in 2026: The Complete Guide to Tools, Hardware & Open-Weight Models](https://blog.starmorph.com/blog/local-llm-inference-tools-guide)
 - 📝 [Mermaid.js Tutorial: The Complete Guide to Diagrams as Code (2026)](https://blog.starmorph.com/blog/mermaid-js-tutorial)
 - 📝 [Obsidian + Claude Code: The Complete Integration Guide](https://blog.starmorph.com/blog/obsidian-claude-code-integration-guide)
-- 📝 [10 More CLI Tools for AI Coding: Part 2 Terminal Workflow Guide](https://blog.starmorph.com/blog/cli-tools-part-2-terminal-workflow)
-- 📝 [Pixelmuse CLI Guide: AI Image Generation From Your Terminal](https://blog.starmorph.com/blog/pixelmuse-cli-guide-ai-image-generation-terminal)
-- 📝 [Best Mac Mini for Running Local LLMs and OpenClaw: Complete Pricing & Buying Guide (2026)](https://blog.starmorph.com/blog/best-mac-mini-for-local-llms)
 <!-- END BLOG-CARDS -->
 
 ## Connect

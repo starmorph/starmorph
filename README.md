@@ -20,7 +20,7 @@
 - 🌐 **[dylanboudro.com](https://dylanboudro.com)** — Personal site
 - 🖌️ **[GlyphMark.md](https://glypmark.md)** Markdown web editor [new]  
 - 🎨 **[Pixelmuse Studio](https://pixelmuse.studio)** — AI image generation platform [API, CLI, MCP]
-- 🔧 **[JSON Smith](https://jsonsmith.dev)** — JSON tooling for developers
+- 🔧 **[JSON Smith](https://jsonsmith.dev)** — JSON tooling for developers [prototype]
 - 🎬 **[VideoForge Studio](https://videoforge.studio)** — 6+ leading video models - flat rate pricing 
 
 ## Open Source Contributions

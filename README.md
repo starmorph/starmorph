@@ -15,9 +15,11 @@
 
 ## Projects
 - ⭐ **[Starmorph](https://starmorph.com)** — Dev studio & blog
+- 📝 **[Starblog](https://blog.starmorph.com)** — Dev studio & blog
+- 🖌️ **[GlyphMark](https://glypmark.md)** markdown web editor [new]  
 - 🧜 **[Mermaid Editor](https://mermaideditor.io)** — Visual Mermaid Diagram Editor
+- - 🌐 **[dylanboudro.com](https://dylanboudro.com)** — Personal site
 - 🎨 **[Pixelmuse Studio](https://pixelmuse.studio)** — AI image generation platform [API, CLI, MCP]
-- 🌐 **[dylanboudro.com](https://dylanboudro.com)** — Personal site
 - 🔧 **[JSON Smith](https://jsonsmith.dev)** — JSON tooling for developers
 - 🎬 **[VideoForge Studio](https://videoforge.studio)** — 6+ leading video models - flat rate pricing 
 

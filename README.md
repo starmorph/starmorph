@@ -43,11 +43,11 @@
 ## Latest Blog Posts
 
 <!-- BEGIN BLOG-CARDS -->
+- 📝 [How Large Language Models Work: The Complete Technical Guide to Transformers, Training, and Inference (2026)](https://blog.starmorph.com/blog/how-llms-work-complete-technical-guide)
 - 📝 [Apple Silicon LLM Inference Optimization: The Complete Guide to Maximum Performance](https://blog.starmorph.com/blog/apple-silicon-llm-inference-optimization-guide)
 - 📝 [How to Build Karpathy's LLM Wiki: The Complete Guide to AI-Maintained Knowledge Bases](https://blog.starmorph.com/blog/karpathy-llm-wiki-knowledge-base-guide)
 - 📝 [LLM Model Names Decoded: A Developer's Guide to Parameters, Quantization & Formats](https://blog.starmorph.com/blog/llm-model-names-decoded)
 - 📝 [AI Token Throughput Tracking Tools: The Complete Guide for Developers (2026)](https://blog.starmorph.com/blog/ai-token-throughput-tracking-tools)
-- 📝 [Local LLM Inference in 2026: The Complete Guide to Tools, Hardware & Open-Weight Models](https://blog.starmorph.com/blog/local-llm-inference-tools-guide)
 <!-- END BLOG-CARDS -->
 
 ## Connect

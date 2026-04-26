@@ -43,11 +43,11 @@
 ## Latest Blog Posts
 
 <!-- BEGIN BLOG-CARDS -->
+- 📝 [AEO and GEO: The Complete Guide to Getting Traffic from AI Search in 2026](https://blog.starmorph.com/blog/aeo-geo-optimization-guide)
+- 📝 [AI Agent Deployment: Cloud Platforms Compared for Ephemeral, Long-Running, and GPU Workloads (2026)](https://blog.starmorph.com/blog/ai-agent-deployment-cloud-platforms-compared)
+- 📝 [RAG Techniques Compared: A Practical Guide to Retrieval Augmented Generation in 2026](https://blog.starmorph.com/blog/rag-techniques-compared-best-practices-guide)
 - 📝 [How Large Language Models Work: The Complete Technical Guide to Transformers, Training, and Inference (2026)](https://blog.starmorph.com/blog/how-llms-work-complete-technical-guide)
 - 📝 [Apple Silicon LLM Inference Optimization: The Complete Guide to Maximum Performance](https://blog.starmorph.com/blog/apple-silicon-llm-inference-optimization-guide)
-- 📝 [How to Build Karpathy's LLM Wiki: The Complete Guide to AI-Maintained Knowledge Bases](https://blog.starmorph.com/blog/karpathy-llm-wiki-knowledge-base-guide)
-- 📝 [LLM Model Names Decoded: A Developer's Guide to Parameters, Quantization & Formats](https://blog.starmorph.com/blog/llm-model-names-decoded)
-- 📝 [AI Token Throughput Tracking Tools: The Complete Guide for Developers (2026)](https://blog.starmorph.com/blog/ai-token-throughput-tracking-tools)
 <!-- END BLOG-CARDS -->
 
 ## Connect
